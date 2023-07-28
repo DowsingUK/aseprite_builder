@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - master
+  label:
+    types: [created, deleted]    
 
 env:
   BUILD_TYPE: Release
