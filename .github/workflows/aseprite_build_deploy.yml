@@ -10,7 +10,7 @@ on:
 env:
   BUILD_TYPE: Release
   
-permissions: read-all|write-all
+permissions: write-all
 
 jobs:
   check-version:
